@@ -70,10 +70,10 @@ Your application configuration would look like:
 return [
     'modules' => [
         'v1' => [
-            'class' => 'app\modules\v1\Module',
+            'class' => 'app\api\modules\v1\Module',
         ],
         'v2' => [
-            'class' => 'app\modules\v2\Module',
+            'class' => 'app\api\modules\v2\Module',
         ],
     ],
     'components' => [
